@@ -16,9 +16,17 @@
 
     }
 
+    .icons{
+        width: 310px;
+        display: flex;
+        margin-top: 10px;
+
+
+    }
+
     .inner-back h3{
         font-size: 15px;
-
+       
     }
 
     #msg img{
@@ -33,54 +41,21 @@
     }
 
     .click{
-        width: 50px;
-        height: 25px;
-        font-weight: bold;
-        font-size: 10px;
-    }
-    .btn{
         width: 60px;
-        height: 25px;
+        height: 27px;
         font-weight: bold;
         font-size: 10px;
     }
-
+    
     .copyright{
-        font-size: 10px;
+        display: flex;
+        color: white;
+        font-size: 11px;
     }
-
-
-
     
 }
 
 
-
-@media (width < 380px) {
-    .gift{
-        /* margin-top:180vh; */
-        padding-top:150vh;
-        height: 300vh;
-
-    }
-
-    .gift h1{
-        font-size: 30px;
-    }
-
-    .gift p{
-        font-size: 14px;
-    }
-
-    .address h1{
-        font-size: 20px;
-        letter-spacing: 5px;
-    }
-
-    .address h2{
-        font-size: 15px;
-    }
-}
 
 
 
