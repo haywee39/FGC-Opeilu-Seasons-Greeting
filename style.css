@@ -7,7 +7,7 @@
 
 body{
     position: absolute;
-    top: 50%;
+    top  : 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -138,6 +138,13 @@ body{
   color: #6495ed;
 }
 
+.fa-solid{
+  color: #fff;
+}
+.fa-solid:hover{
+  color: #6495ed;
+}
+
 
 .tap{
   display: flex;
@@ -210,6 +217,37 @@ body{
     transform:rotateY(45deg);
 }
 }
+
+.gift{            
+  margin-top  : 60px;
+  padding-top   : 11vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    width:100vw;
+    height: 140vh;
+    color: #fff;   
+    background: url(./bible.jpg) no-repeat center fixed;
+    background-size: cover; 
+    
+}
+
+.gift h1{ 
+  padding-top: 50px;
+  font-family: 'splash', cursive;
+  font-size: 55px;
+  text-shadow: red 3px 3px 3px;
+  word-spacing: 20px                                                                                                                       ;
+}
+
+.gift p{
+  font-size: 18px;
+  text-shadow: red 3px 3px 3px;
+}
+
+
 
 
 
