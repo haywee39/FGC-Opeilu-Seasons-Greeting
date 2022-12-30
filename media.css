@@ -39,7 +39,7 @@
         font-size: 10px;
     }
     .btn{
-        width: 50px;
+        width: 60px;
         height: 25px;
         font-weight: bold;
         font-size: 10px;
@@ -58,7 +58,9 @@
 
 @media (width < 380px) {
     .gift{
-        height: 230vh;
+        /* margin-top:180vh; */
+        padding-top:150vh;
+        height: 300vh;
 
     }
 
@@ -68,6 +70,15 @@
 
     .gift p{
         font-size: 14px;
+    }
+
+    .address h1{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .address h2{
+        font-size: 15px;
     }
 }
 
