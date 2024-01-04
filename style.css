@@ -109,12 +109,9 @@ body{
   
   
 .flip-card-back {
-/* position: absolute;   */
     transform: rotateY(180deg);  
     background-image: url(./red\ tree);
     background-size: contain;
-    /* justify-content: space-between; */
-    /* align-items:bottom */
   }
 
 
@@ -131,8 +128,6 @@ body{
 
 
 .icons {
-  /* bottom: 50%; */
-  /* left:50%; */
   padding-top: 20px;
   display: flex;
   width: 480px;
@@ -179,26 +174,6 @@ a{
   background-color: #6495ed;
   box-shadow: black 5px 5px 5px;
 }
-
-/* .btn{
-    background: transparent;
-    color:white;
-    border: none;
-    border-radius: 5px;
-    width: 80px;
-    height: 35px;
-    transition: all 1s;
-    box-shadow: #6495ed -3px -3px 3px;
-}
-.btn a{
-    color: white;
-    text-decoration: none;
-}
-
-.btn:hover{
-    background-color: #6495ed;
-    box-shadow: black 5px 5px 5px;
-} */
 
 .copyright{
   display: flex;
